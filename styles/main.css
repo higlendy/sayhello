@@ -6,8 +6,8 @@ classes are denotedby '.'
 */
 
 body {
-	background-color: #fffcde;
-	font-family: 'Roboto', sans-serif;
+	background-color: #E9E9FF;
+	font-family: 'Inter', sans-serif;
 }
 
 #main {
@@ -16,8 +16,32 @@ body {
 }
 
 .container {
-	padding: 24px;
+	padding: 12px;
 }
+
+.container2 {
+	border-radius: 20px;
+	width: 50%;
+	margin:auto;
+	padding: 24px;
+	background-color: #ffffff
+}
+
+.container2:hover {
+	background-color: #a09eff
+}
+
+.container2:hover h1 {
+	font-size: 80px;
+	color: #ffffff
+
+}
+
+.container2:hover #profile-pic {
+	width: 70%;
+	height: 70%;
+}
+
 
 #profile {
 	text-align: center;
@@ -25,7 +49,18 @@ body {
 
 #profile-pic {
 	border-radius: 50%;
-	width: 200px;
-	height: 200px;
+	border:12px inset #5551FF;
+	width: 50%;
+	height: 50%;
 	margin: auto;
 }
+
+
+h1 {
+	color: #5551FF;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 24px;
+	margin-bottom: 20px;
+}
+
